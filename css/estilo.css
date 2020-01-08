@@ -1,0 +1,237 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-shadow: border-box;
+}
+html,body{
+    height: 100%;
+}
+/*cabeçalio*/
+header{
+    background: #ccc;
+    padding: 10px 2%;
+}
+.clear{
+    clear: both;
+}
+.cabecalho{
+    width: 100%;
+    margin: 0 auto;
+    
+}
+
+.logo1{
+    float: left;
+    width: 160px;
+    height: 60px;
+    background-size: 100% auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url('../img/logo1.png');
+}
+.logo2{
+    float: right;
+    width: 160px;
+    height: 60px;
+    background-size: 100% auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url('../img/logo2.png');
+    
+}
+/*corpo*/
+main{
+    width: 100%;
+    height: 500px;
+    
+}
+div.corpo{
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-image: url('../img/bg-form.jpg');
+}
+/*div.form*/
+form{
+    width: 350px;
+    height: 450px;    
+    text-align: left;
+    margin:20px;
+    float: right;
+    background: #fff;
+    opacity: 0.7;
+}
+div#topo{
+    
+    background: #ccc;
+    padding: 10px;
+    font-size: 14px;
+   
+}
+div#corpo label{
+    width: 100%;
+    margin: 0 10px;
+   }
+.form{
+    margin-top: 20px;
+}
+div#corpo{
+    width: 100%;
+    height: 100%;
+    text-align: left;
+    margin:20px 0;
+    
+}
+div#corpo input{
+   width: 90%;
+   margin: 15px 10px;
+   padding: 10px 0;
+}
+div#corpo input#enviar{
+    background-color: rgb(2, 2, 49);
+    color: white;
+    border: 0;
+    margin-top: 10px;
+    margin-bottom: 20px;
+ }
+ /*icone*/
+ #local-icon{
+     background-color: #ccc;
+     margin: 0 60px 0 60px;
+ }
+ div#icon img{
+     width: 30px;
+     height: 30px;
+     float: left;
+     align-items: center;
+     margin-top: -10px;
+     margin-left: 50%;
+ }
+ 
+ /*titulo mosaico*/
+ h1{
+     text-align: center;
+     font-size: 25px;
+     font-style: normal;
+     color: rgb(59, 59, 59);
+     margin-top: 30px;
+ }
+ h2{
+     text-align: center;
+     font-size: 18px;
+     font-style: normal;
+     color: rgb(59, 59, 59);
+     margin-bottom: 30px;
+ }
+ /*mosaico*/
+ .texto{
+    width:calc(50% - 60px);
+    height: 300px;
+    background-color: #ccc;
+    font-size: 15px;
+    padding: 150px 10px 0 10px;
+    box-sizing: border-box;
+    text-align: center;     
+}
+.img{
+    width:calc(50% - 60px);
+    height: 300px;
+    
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:100% auto;
+    }
+ #topo-mosaico{
+     background-color: #ccc;
+     margin: 0 60px 0 60px;
+     padding: 40px 0;
+ }
+ #text-1{
+    float: left;
+    margin-left: 60px;
+    
+    
+ }
+ #img-1{
+    float: right;
+    background-image: url('../img/mosaico4.jpg');
+    margin-right: 60px;
+ }
+ #text-2{
+    float: right;
+    margin-right: 60px;
+    
+ }
+ #img-2{
+    float: left;
+    background-image: url('../img/mosaico3.jpg');
+    margin-left: 60px;
+ }
+ #text-3{
+    float: left;
+    margin-left: 60px;
+ }
+ #img-3{
+    float: right;
+    background-image: url('../img/mosaico2.jpg');
+    margin-right: 60px;
+ }
+ #text-4{
+    float: right;
+    margin-right: 60px;
+ }
+ #img-4{
+    float: left;
+    background-image: url('../img/mosaico1.jpg');
+    margin-left: 60px;
+ }
+ /*rodape*/
+ #topo-rodape{
+     margin: 0 60px;
+     background-color: rgb(184, 179, 179);
+     padding: 30px 10px;
+ }
+ #rodape{
+     margin: 20px 60px;
+     text-align: center;
+ }
+ #logo-rodape{
+     margin-top: 10px;
+     width: 160px;
+     height: 60px;
+     display: inline-block;
+     background-image: url('../img/logo1.png');
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: 100%;
+ }
+@media screen and (max-width:780px){
+    /*cabeçalio*/
+    header{
+        text-align: center;
+    }
+   .logo2, .logo1{
+       margin-top: 10px;
+       float: none;
+       display: inline-block;
+   } 
+   /*corpo*/
+   div.corpo{
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('../img/bg-form.jpg');
+    }
+    
+}
+@media screen and (max-width:1030px){
+    .img{
+        
+        background-size:cover;
+     }
+}
